@@ -6,7 +6,7 @@ resource "azurerm_resouce_group" "rg1" {
 resource "azurerm_storage_account" "st" {
 name = "myst01"
 location = "central india"
-resource_group = "my_rg"
+resource_group_name = "my_rg"
 account_tier             = "Standard"
 account_replication_type = "GRS"
 }
